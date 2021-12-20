@@ -194,6 +194,14 @@ body {margin:0;font-family:Arial;
       margin-bottom: 20px;
     }
   }
+
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
   
   /* Style the counter cards */
   .card {
@@ -216,10 +224,8 @@ body {margin:0;font-family:Arial;
 
   .card img{
     transition: transform .2s; /* Animation */
-    width: 100%;
-    height: 20vw;
+    max-width: 100%;
     object-fit: cover;
-    min-height: 350px;
   }
 
   hr{
