@@ -1,14 +1,74 @@
 body {margin:0;font-family:Arial;
   height: 100%;}
 
-.bg-img {
+.bg-img-index {
   /* The image used */
   background-image: url("img/banner/banner-2.jpg");
 
-  height: 650px;
+  height: 40vw;
 
   /* Center and scale the image nicely */
-  background-position: center;
+  background-position: middle;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  position: relative;
+}
+
+.bg-img-men {
+  /* The image used */
+  background-image: url("img/banner/banner-3.jpg");
+
+  height: 40vw;
+
+  /* Center and scale the image nicely */
+  background-position: middle;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  position: relative;
+}
+
+.bg-img-woman {
+  /* The image used */
+  background-image: url("img/banner/banner-4.jpg");
+
+  height: 40vw;
+
+  /* Center and scale the image nicely */
+  background-position: middle;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  position: relative;
+}
+
+.bg-img-kids {
+  /* The image used */
+  background-image: url("img/banner/banner-5.jpg");
+
+  height: 40vw;
+
+  /* Center and scale the image nicely */
+  background-position: middle;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  position: relative;
+}
+
+.bg-img-shoes {
+  /* The image used */
+  background-image: url("img/banner/banner-6.jpg");
+
+  height: 40vw;
+
+  /* Center and scale the image nicely */
+  background-position: middle;
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -250,6 +310,13 @@ body {margin:0;font-family:Arial;
 
   footer p{
     color: black;
+  }
+
+  .button_scroll_top{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: rgba(255, 255, 255, 0);
   }
 
   

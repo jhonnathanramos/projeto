@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="bg-img">
+  <div class="bg-img-index">
     <div class="container">
 <div class="topnav" id="myTopnav">
   <a href="#home" class="active">Home</a>
@@ -113,13 +113,23 @@ function myFunction() {
     </div>
   </section>
     
+<a class="button_scroll_top" onclick="myFunction()"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-up-circle" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+</svg></a>
+
+
+
     <footer>
         <p>2021-2022 No Copyright &copy; Jhonnathan Ramos</p>
     </footer>
 
 
 <script>
-    
+    function myFunction() {
+      window.scrollTo(0, 0);
+}
+
+
     $(document).ready(function(){
       // Add smooth scrolling to all links
       $("a").on('click', function(event) {
