@@ -8,10 +8,10 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="bg-img-index">
+  <div class="bg-img-about">
     <div class="container">
 <div class="topnav" id="myTopnav">
-  <a href="#home" class="active">Home</a>
+  <a href="index.html" class="active">Home</a>
   <div class="dropdown">
     <button class="dropbtn">Categories 
       <i class="fa fa-caret-down"></i>
@@ -25,7 +25,7 @@
     </div>
   </div> 
   <a href="contact.html">Contact</a>
-  <a href="about.html">About</a>
+  <a href="#">About</a>
     <a href="#contact" class="nav-right">Sign in</a>
     <a href="#about" class="nav-right">Get Started  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
       <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
@@ -49,82 +49,31 @@ function myFunction() {
     x.className = "topnav";
   }
 }
+
 </script>
 
-<section id="section1">
-  <hr>
-    <h1>New</h1>
-  <hr>
-    
-    <div class="row" style="padding-top: 30px;">
-      <div class="column">
-        <div class="card">
-          <img src="img/articles/af1.jpg">
-          <h3>Air Force 1</h3>
-          <p>Calçado Junior</p>
-          <p>Some text</p>
-        </div>
-      </div>
-    
-      <div class="column">
-        <div class="card">
-          <img src="img/articles/af1_2.jpg">
-          <h3>Air Force 1</h3>
-          <p>Calçado Masculino</p>
-          <p>Some text</p>
-        </div>
-      </div>
-      
-      <div class="column">
-        <div class="card">
-          <img src="img/articles/af1_3.jpg">
-          <h3>Air Force 1</h3>
-          <p>Calçado Feminino</p>
-          <p>Some text</p>
-        </div>
-      </div>
-      
-      <div class="column">
-        <div class="card">
-          <img src="img/articles/af1_4.jpg">
-          <h3>Air Force 1</h3>
-          <p>Calçado Junior</p>
-          <p>Some text</p>
-        </div>
-      </div>
+<script>
+function myMap() {
+var mapProp= {
+  center:new google.maps.LatLng(51.508742,-0.120850),
+  zoom:5,
+};
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+</script>
 
-      <div class="column">
-        <div class="card">
-          <img src="img/articles/af1_5.jpg">
-          <h3>Air Force 1</h3>
-          <p>Calçado Masculino</p>
-          <p>Some text</p>
-        </div>
-      </div>
+<hr>
+<h1>About us</h1>
+<hr>
 
-      <div class="column">
-        <div class="card">
-          <img src="img/articles/af1_6.jpg">
-          <h3>Air Force 1</h3>
-          <p>Calçado Masculino</p>
-          <p>Some text</p>
-        </div>
-      </div>
-    </div>
-  </section>
-    
-<a class="button_scroll_top" onclick="myFunction()"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-up-circle" viewBox="0 0 16 16">
-  <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
-</svg></a>
+<iframe id="map" src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d49709.00465196725!2d-9.154370956761321!3d38.859642121430454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0xd192fb632632f0b%3A0x39d4ba3d247007da!2sestampaco!3m2!1d38.871814799999996!2d-9.0795403!5e0!3m2!1spt-PT!2spt!4v1641500198557!5m2!1spt-PT!2spt" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 
-
-
-    <footer>
-        <p>2021-2022 No Copyright &copy; Jhonnathan Ramos</p>
-    </footer>
-
+<footer>
+  <p>2021-2022 No Copyright &copy; Jhonnathan Ramos</p>
+</footer>
 
 <script>
+    
     function myFunction() {
       window.scrollTo(0, 0);
 }

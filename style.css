@@ -75,6 +75,34 @@ body {margin:0;font-family:Arial;
   /* Needed to position the navbar */
   position: relative;
 }
+.bg-img-contact {
+  /* The image used */
+  background-image: url("img/banner/banner-8.jpg");
+
+  height: 20vw;
+
+  /* Center and scale the image nicely */
+  background-position: middle;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  position: relative;
+}
+.bg-img-about {
+  /* The image used */
+  background-image: url("img/banner/banner-7.jpg");
+
+  height: 20vw;
+
+  /* Center and scale the image nicely */
+  background-position: middle;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  position: relative;
+}
 
 /* Position the navbar container inside the image */
 .container {
@@ -247,7 +275,7 @@ body {margin:0;font-family:Arial;
   }
   
   /* Responsive columns */
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 400px) {
     .column {
       width: 100%;
       display: block;
@@ -255,7 +283,7 @@ body {margin:0;font-family:Arial;
     }
   }
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 400px) {
     .column {
       width: 100%;
       display: block;
@@ -319,4 +347,61 @@ body {margin:0;font-family:Arial;
     background-color: rgba(255, 255, 255, 0);
   }
 
+  .contact_form{
+    padding-top: 10vh;
+    margin-bottom: 50px;
+    width: 50%;
+    margin-left: 25%;
+  }
+  .contact_form input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: none;
+    border-bottom: 2px solid rgb(153, 0, 255);
+    box-sizing: border-box;
+  }
+
+  .contact_form textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: none;
+    border-bottom: 2px solid rgb(153, 0, 255);
+    box-sizing: border-box;
+  }
   
+  .contact_form input[type=submit] {
+    width: 100%;
+    background-color: rgb(153, 0, 255);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0px 16px 32px 0px rgba(0,0,0,0.2);
+    transition: 0.6s;
+  }
+  
+  .contact_form input[type=submit]:hover {
+    background-color: rgb(120, 4, 197);
+    box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.541);
+  }
+  
+  .contact_form div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  /* Set the size of the div element that contains the map */
+#map {
+ margin-top: 50px;
+  height: 400px;
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */
+}
