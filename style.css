@@ -1,4 +1,5 @@
-body {margin:0;font-family:Arial;
+
+body {margin:0;
   height: 100%;}
 
 .bg-img-index {
@@ -104,6 +105,21 @@ body {margin:0;font-family:Arial;
   position: relative;
 }
 
+.bg-img-login {
+  /* The image used */
+  background-image: url("img/banner/banner-9.jpg");
+
+  height: 40vw;
+
+  /* Center and scale the image nicely */
+  background-position: middle;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  position: relative;
+}
+
 /* Position the navbar container inside the image */
 .container {
   position: absolute;
@@ -148,7 +164,7 @@ body {margin:0;font-family:Arial;
   padding: 6px 10px;
   margin-top: 8px;
   margin-right: 16px;
-  background: #ddd;
+  background: rgb(153, 0, 255);
   font-size: 17px;
   border: none;
   cursor: pointer;
@@ -276,14 +292,14 @@ body {margin:0;font-family:Arial;
   
   /* Responsive columns */
 
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 1000px) {
     .column {
-      width: 50%;
+      width: 47%;
       display: block;
       margin-bottom: 20px;
     }
   }
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 700px) {
     .column {
       width: 100%;
       display: block;
@@ -317,12 +333,12 @@ body {margin:0;font-family:Arial;
 
   hr{
     margin-top: 50px;
-    border: 5px solid rgba(202, 199, 199, 0.541);
+    border: 5px solid rgb(153, 0, 255);
   border-radius: 5px;
   }
 
   h1{
-    color: rgba(153, 144, 144, 0.541);
+    color: rgb(153, 0, 255);
     margin-top: 40px;
     text-align: center;
   }
