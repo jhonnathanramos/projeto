@@ -171,7 +171,7 @@ body {margin:0;
 }
 
 .topnav .search-container button:hover {
-  background: #ccc;
+  background: rgba(139, 9, 226, 0.692);
 }
 
 .active {
